@@ -3,26 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Basic Icons -->
     <link
       href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
       rel="stylesheet"
     />
+
     <!-- Filled Icons -->
     <link
       href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css"
       rel="stylesheet"
     />
+
     <!-- Brand Icons -->
     <link
       href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/style.css" />
-    <title>Personal portfolio</title>
+
+    <title>Personal Portfolio</title>
   </head>
+
   <body>
-    <!-- header -->
+    <!-- Header -->
     <header>
       <a href="#" class="logo">Morteza.</a>
 
@@ -37,38 +43,55 @@
       </nav>
     </header>
 
-    <!-- home section -->
-    <section class="home active">
+    <!-- Home Section -->
+    <section class="home">
       <div class="home-detail">
         <h1>Morteza Mohasseliy</h1>
+
         <h2>
-          I'm a
-          <span style="--i: 4" data-text="Frontend Developer">
-            Frontend Developer
-          </span>
+          <span>I'm a</span>
 
-          <span style="--i: 3" data-text="React Developer">
-            React Developer
-          </span>
+          <span class="animated-text">
+            <span style="--i: 4" data-text="Frontend Developer">
+              Frontend Developer
+            </span>
 
-          <span style="--i: 2" data-text="Next.js Developer">
-            Next.js Developer
-          </span>
+            <span style="--i: 3" data-text="React Developer">
+              React Developer
+            </span>
 
-          <span style="--i: 1" data-text="UI Developer"> UI Developer </span>
+            <span style="--i: 2" data-text="Next.js Developer">
+              Next.js Developer
+            </span>
+
+            <span style="--i: 1" data-text="UI Developer"> UI Developer </span>
+          </span>
         </h2>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam iusto
-          quibusdam tempora eum saepe vero hic ipsa, ab tenetur maxime porro,
-          omnis non deleniti dicta sequi sint culpa ad recusandae.
+          I build responsive and modern web interfaces with clean, reusable, and
+          maintainable frontend code.
         </p>
+
         <div class="btn-sci">
           <a href="#" class="btn">Download CV</a>
+
           <div class="sci">
-            <a href="#"><i class="bxl bx-github"></i> </a>
-            <a href="#"><i class="bxl bx-linkedin"></i></a>
-            <a href="#"><i class="bxl bx-discord-alt"></i></a>
-            <a href="#"><i class="bxl bx-youtube"></i></a>
+            <a href="#">
+              <i class="bxl bx-github"></i>
+            </a>
+
+            <a href="#">
+              <i class="bxl bx-linkedin"></i>
+            </a>
+
+            <a href="#">
+              <i class="bxl bx-discord-alt"></i>
+            </a>
+
+            <a href="#">
+              <i class="bxl bx-youtube"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -76,10 +99,150 @@
       <div class="home-img">
         <div class="img-box">
           <div class="img-item">
-            <img src="images/profile.png" />
+            <img src="images/profile.png" alt="Morteza Mohasseliy" />
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Service Section -->
+    <section class="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-left"></i></a>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>
+            Building responsive and modern web interfaces with React.js and
+            Next.js.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bxl bx-figma"></i>
+            <a href="#"><i class="bx bx-arrow-left"></i></a>
+          </div>
+          <h3>Design to Code</h3>
+          <p>
+            Converting Figma, PSD, XD, and PDF designs into clean, responsive
+            frontend code.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-devices"></i>
+            <a href="#"><i class="bx bx-arrow-left"></i></a>
+          </div>
+          <h3>Responsive UI Development</h3>
+          <p>
+            Creating interfaces that work smoothly across desktop, tablet, and
+            mobile devices.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bxl bx-react"></i>
+            <a href="#"><i class="bx bx-arrow-left"></i></a>
+          </div>
+          <h3>React & Next.js Development</h3>
+          <p>
+            Building reusable components, pages, routing, interactions, and
+            API-connected interfaces.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-bug"></i>
+            <a href="#"><i class="bx bx-arrow-left"></i></a>
+          </div>
+          <h3>Frontend Bug Fixing</h3>
+          <p>
+            Finding and fixing JavaScript, React, Next.js, CSS, and responsive
+            UI issues.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-analyze"></i>
+            <a href="#"><i class="bx bx-arrow-left"></i></a>
+          </div>
+          <h3>UI Testing & Review</h3>
+          <p>
+            Reviewing frontend interfaces for visual consistency,
+            responsiveness, and basic functionality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume active">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why hire me?</h2>
+          <p class="desc">
+            I am a passionate frontend developer with a strong background in
+            creating modern, responsive web applications using React.js and
+            Next.js.
+          </p>
+          <button class="resume-btn active">Exprience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail exprience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cum
+              rerum odio ea voluptates obcaecati tempore a reiciendis molestias
+              neque magnam eaque enim, laborum libero, recusandae distinctio.
+              Officiis, maiores excepturi!
+            </p>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cum
+              rerum odio ea voluptates obcaecati tempore a reiciendis molestias
+              neque magnam eaque enim, laborum libero, recusandae distinctio.
+              Officiis, maiores excepturi!
+            </p>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cum
+              rerum odio ea voluptates obcaecati tempore a reiciendis molestias
+              neque magnam eaque enim, laborum libero, recusandae distinctio.
+              Officiis, maiores excepturi!
+            </p>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cum
+              rerum odio ea voluptates obcaecati tempore a reiciendis molestias
+              neque magnam eaque enim, laborum libero, recusandae distinctio.
+              Officiis, maiores excepturi!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
