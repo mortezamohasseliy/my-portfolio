@@ -10,13 +10,6 @@ menuIcon.addEventListener("click", () => {
 });
 
 const activePage = () => {
-  // const header = document.querySelector("header");
-
-  // header.classList.remove("active");
-  // setTimeout(() => {
-  //   header.classList.add("active");
-  // }, 1100);
-
   navLinks.forEach((link) => {
     link.classList.remove("active");
   });
